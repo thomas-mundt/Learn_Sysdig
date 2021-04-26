@@ -35,6 +35,15 @@ sysdig -l
 ```
 
 
+## Filters for containers
+
+When cat is executed inside a container
+```
+proc.name=cat and container.id!=host
+```
+
+
+
 ## CSysdig (GUI)
 
 
