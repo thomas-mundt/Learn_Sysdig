@@ -34,6 +34,13 @@ List possible filters
 sysdig -l
 ```
 
+```
+sysdig -cl
+sysdig -c topprocs_cpu
+sysdig -c spectrogram
+sysdig -c spy_users
+```
+
 
 ## Filters for containers
 
